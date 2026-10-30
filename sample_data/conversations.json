@@ -1,0 +1,130 @@
+[
+  {
+    "title": "Project Alpha Strategic Alignment",
+    "mapping": {
+      "node_root": {
+        "id": "node_root",
+        "message": {
+          "id": "msg_001",
+          "author": { "role": "user" },
+          "content": {
+            "parts": [
+              "Here is the core brief for Project Alpha. We need to lock down the engineering launch for November 15, 2026. The budget cap is strictly set at $45,000."
+            ]
+          }
+        }
+      },
+      "node_reply_1": {
+        "id": "node_reply_1",
+        "message": {
+          "id": "msg_002",
+          "author": { "role": "assistant" },
+          "content": {
+            "parts": [
+              "Understood. I will log the Project Alpha engineering target for November 15, 2026, with a maximum financial ceiling of $45,000. Do we have stakeholder sign-off on this allocation?"
+            ]
+          }
+        }
+      },
+      "node_reply_2": {
+        "id": "node_reply_2",
+        "message": {
+          "id": "msg_003",
+          "author": { "role": "user" },
+          "content": {
+            "parts": [
+              "Yes, Sarah formally approved the entire $45,000 budget yesterday afternoon. No further executive clearances are required to move forward."
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "title": "Service Level Agreement Terms",
+    "mapping": {
+      "node_sla_1": {
+        "id": "node_sla_1",
+        "message": {
+          "id": "msg_101",
+          "author": { "role": "user" },
+          "content": {
+            "parts": [
+              "Let's document our platform support obligations. Our critical system bugs (Severity 1) carry an ironclad 4-hour resolution SLA. General non-blocking maintenance updates must be handled exclusively on weekend maintenance windows (Saturday 02:00 - 06:00 UTC)."
+            ]
+          }
+        }
+      },
+      "node_sla_2": {
+        "id": "node_sla_2",
+        "message": {
+          "id": "msg_102",
+          "author": { "role": "assistant" },
+          "content": {
+            "parts": [
+              "Logged: Severity 1 bugs have a 4-hour SLA. Maintenance is scheduled for Saturdays 02:00-06:00 UTC. What is the SLA for Severity 2 bugs?"
+            ]
+          }
+        }
+      },
+      "node_sla_3": {
+        "id": "node_sla_3",
+        "message": {
+          "id": "msg_103",
+          "author": { "role": "user" },
+          "content": {
+            "parts": [
+              "Severity 2 issues have a 24-hour turnaround target, and regular feature requests are prioritized in two-week sprint cycles."
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "title": "Technical Architecture & Tech Stack Guidelines",
+    "mapping": {
+      "node_tech_1": {
+        "id": "node_tech_1",
+        "message": {
+          "id": "msg_201",
+          "author": { "role": "user" },
+          "content": {
+            "parts": [
+              "Our backend architecture must remain exclusively Python 3.11+ using FastAPI for asynchronous endpoints and PostgreSQL for persistent relational data. We do not approve introducing Redis or MongoDB unless cloud costs exceed $500/month."
+            ]
+          }
+        }
+      },
+      "node_tech_2": {
+        "id": "node_tech_2",
+        "message": {
+          "id": "msg_202",
+          "author": { "role": "user" },
+          "content": {
+            "parts": [
+              "For real-time audio and inference, local processing on macOS must target Apple Silicon MPS acceleration with int8 or float16 quantization to guarantee sub-1.5s latency without cloud transcription dependencies."
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "title": "Client Invoicing and Payment Terms",
+    "mapping": {
+      "node_fin_1": {
+        "id": "node_fin_1",
+        "message": {
+          "id": "msg_301",
+          "author": { "role": "user" },
+          "content": {
+            "parts": [
+              "Standard payment terms for all corporate deliverables are Net 30 from the invoice issue date. A 5% discount applies if paid within 10 days. Late payments incur a 1.5% monthly compound fee after 45 days."
+            ]
+          }
+        }
+      }
+    }
+  }
+]
